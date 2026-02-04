@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jai Bhagwan Auto Garage and Spare Parts | Kharadi Pune</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Jai Bhagwan Auto Garage and Spare Parts in Kharadi, Pune. Two-wheeler servicing, repairing, engine work, accessories, battery, tyre and oil – all bike work under one roof.">
+
+    <!-- Font Awesome (FIXED) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Your CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div class="top-bar">
+        <span><i class="fa-solid fa-location-dot"></i> Kharadi, Pune • Jai Bhagwan Auto Garage & Spare Parts</span>
+        <span><i class="fa-solid fa-clock"></i> Today : 9:00 AM – 9:00 PM</span>
+        <!-- <span><i class="fa-solid fa-phone"></i> Call for directions: <strong>85548 60281</strong></span> -->
+    </div>
+
+    <header class ="h">
+        <div class="nav">
+            <div class="logo-wrapper">
+                <div class="logo-icon">
+                    <img src = "images/logo.jpg" alt = "Jai Bhagwan Auto Garage">
+                </div>
+                <div class="logo-text">
+                    <span class="title">Jai Bhagwan</span>
+                    <span class="subtitle">Auto Garage & Spares</span>
+                </div>
+            </div>
+
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Garage</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#contact">Contact</a>
+                <button class="nav-cta" onclick="callNow()">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section id="hero" class="section hero">
+            <div class="hero-left fade-in">
+                <div class="pill">
+                    <i class="fa-solid fa-motorcycle"></i>
+                    Trusted Two-Wheeler Garage
+                </div>
+                <h1 class="hero-main-text">
+                    All bike work, done <span>properly</span> in your neighbourhood.
+                </h1>
+                <p class="hero-body">
+                    From daily commuters to touring bikes, <strong>Jai Bhagwan Auto Garage & Spare Parts</strong>
+                    in Kharadi, Pune handles complete servicing, repairing, engine work, electrical,
+                    tyres, batteries and genuine spares – under one roof.
+                </p>
+
+                <div class="hero-badge-row">
+                    <div class="hero-tag">
+                        <i class="fa-solid fa-wrench"></i> Experienced local mechanic
+                    </div>
+                    <div class="hero-tag">
+                        <i class="fa-solid fa-shield-halved"></i> Genuine parts & oils
+                    </div>
+                    <div class="hero-tag">
+                        <i class="fa-solid fa-bolt"></i> Same-day service on most jobs
+                    </div>
+                </div>
+
+                <div class="hero-cta-row">
+                    <button class="btn-primary" onclick="callNow()">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        Call for booking
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('services')">
+                        <i class="fa-solid fa-list-check"></i>
+                        See all services
+                    </button>
+                </div>
+
+                <div class="hero-note">
+                    <i class="fa-solid fa-circle-check">
+                    </i><span>No online timepass – just simple, honest work. Pay after you’re satisfied.</span>
+                </div>
+
+                <div class="highlights-row">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <!-- <img src = "images/bullet.jpg" alt = " bullet tools"> -->
+                            <i class="fa-solid fa-oil-can"></i>
+                        </div>
+                        <div>
+                            <h3>Regular Service</h3>
+                            <p>Engine oil, filter, brakes, chain, general check-up – everything covered in one go.</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"> 
+                            <!-- <img src="images/bullet.jpg" alt=" bullet tools"> -->
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div>
+                            <h3>Repair & Overhaul</h3>
+                            <p>Clutch, engine, suspension, bearings, electrical issues – properly diagnosed & repaired.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <!-- <img src="images/bullet.jpg" alt=" bullet tools"> -->
+                            <i class="fa-solid fa-car-battery"></i>
+                        </div>
+                        <div>
+                            <h3>Spare Parts & Accessories</h3>
+                            <p>Tyres, batteries, bulbs, cables, mirrors, grips and more kept ready in stock.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-right fade-in">
+                <div class="hero-main-image">
+                    <img src="images/garage-front.jpeg" alt="Front view of Jai Bhagwan Auto Garage in Kharadi Pune">
+            
+                    <div class="hero-floating-card">
+                        <strong>Jai Bhagwan Auto Garage</strong>
+                        <span>
+                            All bike works will be ensured with us – servicing, repairing,
+                            accessories, battery, tyre, oil.
+                        </span>
+                        <div class="tag">
+                            <i class="fa-solid fa-location-dot"></i> Kharadi, Pune
+                        </div>
+                    </div>
+            
+                    <div class="hero-brands">
+                        <div class="hero-brands-title">We work on</div>
+                        <div class="hero-brands-logos">
+                            <span>Honda</span>
+                            <span>Hero</span>
+                            <span>Bajaj</span>
+                            <span>TVS</span>
+                            <span>Others</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+            </section>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="section fade-in" >
+            <div class="pill">
+                <i class="fa-solid fa-list-check"></i> Our Services
+            </div>
+            <h2 class="section-heading">All types of two-wheeler work under one roof.</h2>
+            <p class="section-sub">
+                Whether it’s routine servicing or a sudden breakdown, we keep your bike ready for daily duty.
+                No fancy promises – just clean work and clear communication.
+            </p>
+
+            <div class="service-chips">
+                <button class="chip active" data-filter="all">All</button>
+                <button class="chip" data-filter="service">General service</button>
+                <button class="chip" data-filter="repair">Repair work</button>
+                <button class="chip" data-filter="tyre">Tyre & brake</button>
+                <button class="chip" data-filter="electrical">Electrical</button>
+                <button class="chip" data-filter="accessories">Accessories</button>
+            </div>
+
+            <div class="services-grid" id="servicesGrid">
+                <article class="service-card" data-type="service">
+                    <div class="service-card-header">
+                        <span class="service-card-title">Periodic / General Service</span>
+                        <span class="service-tag">Most popular</span>
+                    </div>
+                    <p>Complete check-up including oil change, filters, brake cleaning, chain lubing, nut-bolt check and
+                        test ride.</p>
+                    <div class="service-meta">
+                        <span><i class="fa-solid fa-clock"></i> Same-day</span>
+                        <span>For: all 2-wheelers</span>
+                    </div>
+                </article>
+
+                <article class="service-card" data-type="repair">
+                    <div class="service-card-header">
+                        <span class="service-card-title">Engine & Clutch Work</span>
+                    </div>
+                    <p>Low pickup, smoke, overheating, unusual engine sound – we inspect and repair with proper parts.
+                    </p>
+                    <div class="service-meta">
+                        <span><i class="fa-solid fa-screwdriver-wrench"></i> Detailed work</span>
+                        <span>Estimate before start</span>
+                    </div>
+                </article>
+
+                <article class="service-card" data-type="tyre">
+                    <div class="service-card-header">
+                        <span class="service-card-title">Tyre, Tube & Wheel</span>
+                    </div>
+                    <p>Puncture repair, tyre replacement, tube change, wheel bearing and alignment related work.</p>
+                    <div class="service-meta">
+                        <span><i class="fa-solid fa-wheelchair-move"></i> Quick</span>
+                        <span>Stock: common sizes</span>
+                    </div>
+                </article>
+
+                <article class="service-card" data-type="electrical">
+                    <div class="service-card-header">
+                        <span class="service-card-title">Electrical & Battery</span>
+                    </div>
+                    <p>Self-start issue, wiring, lights, horn, indicators and battery-related problems solved.</p>
+                    <div class="service-meta">
+                        <span><i class="fa-solid fa-bolt"></i> Electrical check</span>
+                        <span>Battery brands available</span>
+                    </div>
+                </article>
+
+                <article class="service-card" data-type="accessories">
+                    <div class="service-card-header">
+                        <span class="service-card-title">Accessories & Fitments</span>
+                    </div>
+                    <p>Mirrors, grips, guards, seat cover, mobile holder and other useful accessories fitted neatly.</p>
+                    <div class="service-meta">
+                        <span><i class="fa-solid fa-wand-magic-sparkles"></i> Customisation</span>
+                        <span>Neat finish</span>
+                    </div>
+                </article>
+
+                <article class="service-card" data-type="service">
+                    <div class="service-card-header">
+                        <span class="service-card-title">Pickup after breakdown</span>
+                    </div>
+                    <p>Within nearby Kharadi area, we help arrange basic towing / pushing support wherever possible.</p>
+                    <div class="service-meta">
+                        <span><i class="fa-solid fa-location-arrow"></i> Nearby only</span>
+                        <span>Call & confirm</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="section fade-in">
+            <div class="gallery-layout">
+                <div>
+                    <div class="pill">
+                        <i class="fa-solid fa-shop"></i> Inside the Garage
+                    </div>
+                    <h2 class="section-heading">Real local garage, organised for real work.</h2>
+                    <p class="section-sub">
+                        Not a showroom – a proper working garage. Organised tools, stocked shelves and clear work space
+                        so
+                        that your bike is handled quickly and safely.
+                    </p>
+
+                    <!-- <p class="gallery-text">
+                        These photos are from the actual Jai Bhagwan Auto Garage. What you see here is exactly where
+                        your
+                        bike will be worked on.
+                    </p> -->
+
+                    <ul class="gallery-points">
+                        <li><i class="fa-solid fa-check"></i> Dedicated rack for engine oil, filters, plugs and spares.
+                        </li>
+                        <li><i class="fa-solid fa-check"></i> Tools arranged on board – no searching while your bike
+                            waits.</li>
+                        <li><i class="fa-solid fa-check"></i> Clean tiled floor, proper lighting and indoor work area.
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="gallery-main" id="galleryMain">
+                        <img src="images/garage-inside.jpeg"
+                            alt="Shelves stocked with bike spares, engine oil and parts at Jai Bhagwan Auto Garage">
+                        <div class="gallery-main-label">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <span id="galleryCaption">Stocked spares rack for quick replacement</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-thumbs">
+                        <button class="gallery-thumb active" data-image="images/spares-rack.jpg"
+                            data-caption="Stocked spares rack for quick replacement">
+                            <img src="images/garage-inside.jpeg" alt="Bike spares rack">
+                        </button>
+                        <button class="gallery-thumb" data-image="images/tools-wall.jpg"
+                            data-caption="Tools board – all tools organised and ready">
+                            <img src="images/tools-wall.jpeg" alt="Tools board on wall">
+                        </button>
+                        <button class="gallery-thumb" data-image="images/garage-front.jpg"
+                            data-caption="Front view of Jai Bhagwan Auto Garage in Kharadi">
+                            <img src="images/tools-board.jpeg" alt="Garage front view">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why us + timings + FAQ -->
+        <section id="why-us" class="section fade-in">
+            <div class="split-3">
+                <div>
+                    <div class="pill">
+                        <i class="fa-solid fa-hands-bubbles"></i> Why Riders Choose Us
+                    </div>
+                    <h2 class="section-heading">Simple, honest garage work – nothing over-smart.</h2>
+                    <p class="section-sub">
+                        Mechanics you can talk to directly. No hidden charges, no unnecessary part changes. We keep you
+                        informed before doing any major work.
+                    </p>
+
+                    <div class="why-grid">
+                        <div class="why-card">
+                            <h3>Owner-managed garage</h3>
+                            <p>Work is personally supervised, so your bike is not randomly passed from person to person.
+                            </p>
+                        </div>
+                        <div class="why-card">
+                            <h3>Genuine oils & parts</h3>
+                            <p>We stock known brands and use correct grade oils recommended for your bike.</p>
+                        </div>
+                        <div class="why-card">
+                            <h3>Clear explanation</h3>
+                            <p>Issues are explained in simple language so you know exactly what is being done.</p>
+                        </div>
+                        <div class="why-card">
+                            <h3>Neighbourhood support</h3>
+                            <p>Nearby Kharadi riders can call for quick help, basic puncture / starting issues, etc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="timing-card">
+                        <div class="timing-card-header">
+                            <div>
+                                <h3><i class="fa-solid fa-clock"></i> Garage Timings</h3>
+                                <p style="font-size:0.8rem; color:#9ca3af; margin-top:0.2rem;">
+                                    Call once before visiting late evenings or on holidays.
+                                </p>
+                            </div>
+                            <button class="timing-toggle" id="timingToggle">View weekly</button>
+                        </div>
+
+                        <div class="timing-list" id="timingList">
+                            <div class="timing-row">
+                                <span>Mon – Sat</span><span>9:00 AM – 9:00 PM</span>
+                            </div>
+                            <div class="timing-row">
+                                <span>Sunday</span><span>Half day (as per work)</span>
+                            </div>
+                        </div>
+
+                        <p class="timing-note">
+                            For urgent work or out-of-hours help, you can call <strong>85548 60281</strong> and check if
+                            we
+                            can support.
+                        </p>
+                    </div>
+
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Do I need to book an appointment?</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                For normal service and small work you can walk in directly. For engine work or heavy
+                                jobs,
+                                it’s better to call and discuss once.
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Which all bikes do you handle?</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                We handle almost all popular two-wheelers – Honda, Hero, Bajaj, TVS, Royal Enfield and
+                                similar brands. For any rare bike, call and confirm once.
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Do you use genuine engine oil?</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                Yes, we keep branded oils of correct grades. If you prefer a particular brand, you can
+                                let us
+                                know while giving the bike.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="section fade-in">
+            <div class="test-layout">
+                <div>
+                    <div class="pill">
+                        <i class="fa-solid fa-comment-dots"></i> Rider Feedback
+                    </div>
+                    <h2 class="section-heading" style="color:#f9fafb;">What local riders say.</h2>
+                    <p class="section-sub">
+                        Feedback from regular customers in and around Kharadi who trust Jai Bhagwan Auto Garage with
+                        their
+                        daily commute and long-ride bikes.
+                    </p>
+
+                    <div class="test-card">
+                        “Good and neat work. Owner explains everything before starting and returns the bike on time.
+                        I get both my office bikes serviced here now.”
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            4.5 / 5
+                        </div>
+                        <div class="test-name">
+                            <span>Local office commuter</span>
+                            <span>Regular service & minor repairs</span>
+                        </div>
+                    </div>
+
+                    <div class="test-card">
+                        “Got my bike fixed after another place messed up the wiring. Problem was traced properly and now
+                        everything works fine. Charges were also reasonable.”
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            5 / 5
+                        </div>
+                        <div class="test-name">
+                            <span>Neighbourhood rider</span>
+                            <span>Electrical & wiring work</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-side">
+                    <p>
+                        We focus on building long-term relationships with riders in our area. If you like the work, you
+                        automatically become our “marketing”.
+                    </p>
+                    <div class="test-stat-row">
+                        <span class="stat-pill"><i class="fa-solid fa-helmet-safety"></i> Safety-first work</span>
+                        <span class="stat-pill"><i class="fa-solid fa-user-gear"></i> Owner involvement in every
+                            job</span>
+                        <span class="stat-pill"><i class="fa-solid fa-repeat"></i> Repeat customers from locality</span>
+                    </div>
+                    <p>
+                        Visit once, see the way we work and then decide. No pressure. Even if you just want to ask a
+                        doubt
+                        about your bike, you’re welcome to drop in.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section fade-in">
+            <div class="contact-layout">
+                <div>
+                    <div class="pill">
+                        <i class="fa-solid fa-phone"></i> Contact & Location
+                    </div>
+                    <h2 class="section-heading">Call, WhatsApp or visit the garage.</h2>
+                    <p class="section-sub">
+                        For any bike issue – big or small – just give a call. Directions will be shared on phone or
+                        WhatsApp.
+                    </p>
+
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <!-- <img src = "images/phone.jpg" alt = "phone" style ="border-radius : 999px;"> -->
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><strong>85548 60281</strong></p>
+                                <p>Best time to call: 9:30 AM – 8:30 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <!-- <img src = "images/address.jpg" alt = "address" style = "border-radius : 999px;"> -->
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Jai Bhagwan Auto Garage & Spare Parts</p>
+                                <p>Kharadi, Pune – exact location shared on google map below.</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <!-- <img src = "images/email.jpg" alt ="email" style = "border-radius : 999px;" -->
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>pratik20112002@gmail.com</p>
+                                <p>For any parts inquiry or bulk requirement, mail us.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <button class="btn-primary" onclick="callNow()">
+                            <i class="fa-solid fa-phone"></i> Call Now
+                        </button>
+                        <button class="btn-whatsapp" onclick="openWhatsApp()">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp Directions
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- Replace this with actual Google Maps embed once you have location link -->
+                    <div class="map-frame">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.5496068837524!2d73.93377417488058!3d18.54924446829836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c336435ac1e9%3A0xe460041492dae378!2sReliance%20Mall!5e0!3m2!1sen!2sin!4v1769494473089!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>
+                            Google Maps location can be embedded here once final pin is created for
+                            Jai Bhagwan Auto Garage in Kharadi. Till then, customers can call / WhatsApp for live
+                            location.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© <span id="year"></span> <strong>Jai Bhagwan Auto Garage & Spare Parts</strong>. All rights
+                reserved.</span>
+            <!-- <div class="footer-links">
+                <a href="#hero">Back to home</a>
+            </div> -->
+        </div>
+    </footer>
+<div>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <!-- <img src = "images/home.jpg" alt = "home" style = "border-radius: 999px;"> -->
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</div>
+
+  <script src = "script.js"> </script>
+</body>
+
+</html>
