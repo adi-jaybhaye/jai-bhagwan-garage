@@ -363,7 +363,7 @@
             min-height: 320px;
         }
 
-    .hero-main-image img {
+    .hero-main-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -1109,3 +1109,4 @@
         opacity: 1;
         transform: translateY(0);
     }
+
